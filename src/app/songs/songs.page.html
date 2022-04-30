@@ -6,7 +6,7 @@
 
 <ion-content class="ion-padding">
   <!-- Songs List -->
-  <!-- <ion-item lines="none" *ngFor="let song of songs" (click)="playSong(song.title,song.subtitle,song.img,song.path)">
+  <ion-item lines="none" *ngFor="let song of songs" (click)="playSong(song.title,song.subtitle,song.img,song.path)">
     <ion-thumbnail slot="start">
       <img src="{{song.img}}" />
     </ion-thumbnail>
@@ -14,25 +14,7 @@
       <h2>{{song.title}}</h2>
       <p>{{song.subtitle}}</p>
     </ion-label>
-  </ion-item> -->
-  <ion-item lines="none" *ngFor="let surah of songs" (click)="playSong(surah.name,surah.title,surah.subtitle,surah.img)">
-    <ion-thumbnail slot="start">
-      <img src="../../assets/quran.jpg"/>
-    </ion-thumbnail>
-    <ion-label>
-      <h2>{{surah.name.short}}</h2>
-      <p>{{surah.subtitle}}</p>
-    </ion-label>
   </ion-item>
-
-  <!-- <ion-item lines="none" *ngFor="let surah of audio; let i = index">
-    <ion-thumbnail slot="start">
-      <img src="../../assets/quran.jpg"/>
-    </ion-thumbnail>
-    <ion-label>
-      <h2>{{surah.name.short}}</h2>
-    </ion-label>
-  </ion-item> -->
 
   <div class="ion-text-center" id="fullPlayer">
     <!-- Minimize Icon -->

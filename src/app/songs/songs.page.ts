@@ -11,7 +11,26 @@ import { IonRange } from '@ionic/angular';
 })
 export class SongsPage implements OnInit {
   audio = [];
-  songs = [];
+  songs = [
+    {
+      title: 'Believer',
+      subtitle: 'Imagine Dragons',
+      img: '/assets/believer.jpg',
+      path: '/assets/songs/believer.mp3'
+    },
+    {
+      title: 'Fifa 2010',
+      subtitle: 'FIFA 2010 Theme Song',
+      img: '/assets/fifa.png',
+      path: '/assets/songs/fifa_2010.mp3'
+    },
+    {
+      title: 'Thunder',
+      subtitle: 'Imagine Dragons',
+      img: '/assets/thunder.jpg',
+      path: '/assets/songs/thunder.mp3'
+    },
+  ];
 
   @ViewChild('range', { static: false }) range: IonRange;
 
@@ -48,10 +67,10 @@ export class SongsPage implements OnInit {
   constructor(private quranAudio: QuranService) { }
 
   ngOnInit() {
-    this.quranAudio.getAudioSurahs().subscribe(result => {
-      this.songs = result.data;
-      console.log(this.songs);
-    });
+    // this.quranAudio.getAudioSurahs().subscribe(result => {
+    //   this.songs = result.data;
+    //   console.log(this.songs);
+    // });
   }
 
   sToTime(t) {
