@@ -13,22 +13,70 @@ export class SongsPage implements OnInit {
   audio = [];
   songs = [
     {
-      title: 'Believer',
-      subtitle: 'Imagine Dragons',
-      img: '/assets/believer.jpg',
-      path: '/assets/songs/believer.mp3'
+      title: 'سورة الملك',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/الملك.jpg',
+      path: '/assets/surahs/الملك.mp3'
     },
     {
-      title: 'Fifa 2010',
-      subtitle: 'FIFA 2010 Theme Song',
-      img: '/assets/fifa.png',
-      path: '/assets/songs/fifa_2010.mp3'
+      title: 'سورة القلم',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/القلم.jpg',
+      path: '/assets/surahs/القلم.mp3'
     },
     {
-      title: 'Thunder',
-      subtitle: 'Imagine Dragons',
-      img: '/assets/thunder.jpg',
-      path: '/assets/songs/thunder.mp3'
+      title: 'سورة الحاقة',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/الحاقة.jpg',
+      path: '/assets/surahs/الحاقة.mp3'
+    },
+    {
+      title: 'سورة المعارج',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/المعارج.jpg',
+      path: '/assets/surahs/المعارج.mp3'
+    },
+    {
+      title: 'سورة نوح',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/نوح.jpg',
+      path: '/assets/surahs/نوح.mp3'
+    },
+    {
+      title: 'سورة الجن',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/الجن.jpg',
+      path: '/assets/surahs/الجن.mp3'
+    },
+    {
+      title: 'سورة المزمل',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/المزمل.jpg',
+      path: '/assets/surahs/المزمل.mp3'
+    },
+    {
+      title: 'سورة المدثر',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/المدثر.jpg',
+      path: '/assets/surahs/المدثر.mp3'
+    },
+    {
+      title: 'سورة القيامة',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/القيامة.jpg',
+      path: '/assets/surahs/القيامة.mp3'
+    },
+    {
+      title: 'سورة الإنسان',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/الإنسان.jpg',
+      path: '/assets/surahs/الإنسان.mp3'
+    },
+    {
+      title: 'سورة المرسلات',
+      subtitle: 'الشيخ مشاري',
+      img: '/assets/photos/المرسلات.jpg',
+      path: '/assets/surahs/المرسلات.mp3'
     },
   ];
 
