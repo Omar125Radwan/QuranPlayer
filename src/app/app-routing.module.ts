@@ -8,11 +8,11 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'songs',
+    redirectTo: 'السور',
     pathMatch: 'full'
   },
   {
-    path: 'songs',
+    path: 'السور',
     loadChildren: () => import('./songs/songs.module').then( m => m.SongsPageModule)
   },
 ];
